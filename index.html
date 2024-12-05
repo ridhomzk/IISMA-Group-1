@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contour lines Zurich</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    /
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.11/esri/css/main.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="https://js.arcgis.com/4.11/"></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div id="legend">
+      <h3>Elevation (meters)</h3>
+      <div class="legend-item">
+        <span class="color-box" style="background-color: rgb(0, 255, 0);"></span>
+        <span class="label">0-400</span>
+      </div>
+      <div class="legend-item">
+        <span class="color-box" style="background-color: rgb(255, 255, 0);"></span>
+        <span class="label">401-600</span>
+      </div>
+      <div class="legend-item">
+        <span class="color-box" style="background-color: rgb(255, 165, 0);"></span>
+        <span class="label">601-800</span>
+      </div>
+      <div class="legend-item">
+        <span class="color-box" style="background-color: rgb(255, 0, 0);"></span>
+        <span class="label">>800</span>
+      </div>
+    </div>    
+    <div id="viewDiv"></div>
+    <div id="contentDiv">
+      <div class="header-container">
+        <h1><span class="title reset">Zurich's Hills</span></h1>
+        <img src="RooMapLogo.png" alt="Logo" class="logo"/>
+      </div>
+      <p>
+        <span class="indicator home">Zurich's hills</span> are shaped by glacial
+        activity and erosion, creating a distinctive terrain that enhances the
+        region's natural and urban appeal. From a geological perspective, these
+        features reflect the area’s glacial past, while from a civil engineering
+        viewpoint, they highlight how topography can be seamlessly integrated
+        into urban planning. The hills' accessibility and ecological diversity
+        make them vital for recreation and sustainability, demonstrating a
+        harmonious balance between nature and human development.
+      </p>
+      <p class="title albis">
+        <span class="indicator albis">Albis Chain</span>
+      </p>
+      <p>
+        The Albis chain, composed of sedimentary molasse rock, serves as both a
+        natural divider and a recreational hub
+        <span class="indicator west">west of Lake Zurich</span>. Geologically
+        significant as part of the Swiss plateau, it stretches 19 km and
+        supports a variety of leisure activities, particularly at its northern
+        end. Civil engineering has complemented this landscape by developing
+        accessible trails and integrating amenities like restaurants, enhancing
+        the chain’s usability while preserving its natural beauty, exemplifying
+        sustainable development.
+      </p>
+      <p class="title uetliberg">
+        <span class="indicator uetliberg">Uetliberg</span>
+      </p>
+      <p>
+        Uetliberg, the highest peak of the Albis chain at 870 m (2,850 ft), is a
+        geological highlight of the Swiss plateau with its panoramic views of
+        Zurich and Lake Zurich. Its integration into public use, with a train
+        line reaching the summit, is a prime example of civil engineering
+        addressing both accessibility and environmental concerns. Uetliberg
+        stands as a model of how infrastructure can amplify the value of natural
+        landmarks, benefiting both tourism and the local community.
+      </p>
+      <p class="title zurichberg">
+        <span class="indicator zurichberg">Zürichberg</span>
+      </p>
+      <p>
+        Zürichberg, a hill rising to 679 m (2,228 ft), combines natural and
+        urban elements beautifully. Geologically, its wooded upper areas are
+        significant as a preserved habitat, while civil engineering has played a
+        role in integrating landmarks like the Zurich Zoo and FIFA headquarters
+        into the landscape. Recreational trails and green spaces emphasize
+        sustainability, making Zürichberg a model for balancing urban expansion
+        with ecological conservation.
+      </p>
+      <p class="title conclusion">Conclusion</p>
+      <p>
+        The hills around Zurich, including the Albis chain and Zürichberg,
+        reflect a fascinating interplay between natural geological processes and
+        human ingenuity. Their glacial origins provide a foundation for unique
+        landscapes, while civil engineering interventions enhance accessibility,
+        recreation, and sustainability. Zurich’s hills serve as an inspiring
+        example of how to harmonize natural features with modern infrastructure,
+        benefiting both the environment and society.
+      </p>
+    </div>
+  </body>
+</html>
